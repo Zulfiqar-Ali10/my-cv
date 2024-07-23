@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.img-photo {
+    width: 200px;
+    height: 210px;
+    border-radius: 210px;
+    border: 3px solid white;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.img-photo img{
+    width: 100%;
+}
+.cv-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side-cv {
+    background-color: #325672;
+    padding-left: 40px;
+    padding-right: 30px;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.right-side-cv {
+    margin-left: 40px;
+}
+
+.contact-div h2 {
+    font-size: 19px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+
+.contact-div i {
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.Education-div h2 {
+    font-size: 19px;
+    padding-top: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+}
+
+.Education-div ul li {
+    padding-top: 8px;
+    font-size: 15px;
+}
+
+.Education-div p {
+    font-size: 14px;
+}
+
+.Skills-div h2 {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Skills-div ul li {
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+.language-div h2 {
+    font-size: 19px;
+    border-bottom: 2px solid white;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+}
+
+.language-div ul li {
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+.introduction span {
+    color: #325672;
+    font-weight: 700;
+}
+
+.introduction h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.introduction p {
+    font-size: 14px;
+    border-bottom: 2px solid #325672;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+}
+
+.profile-div h2 {
+    font-size: 25px;
+    border-bottom: 2px solid #325672;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.profile-div p {
+    max-width: 900px;
+    padding-bottom: 6px;
+}
+
+.work-experience-div h2 {
+    font-size: 25px;
+    padding-top: 20px;
+    border-bottom: 2px solid #325672;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.work-experience-div ul li {
+    padding-top: 4px;
+}
